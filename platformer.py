@@ -125,7 +125,7 @@ def game_loop(img_path):
     global MAP
 
     img_for_rect = pygame.image.load(img_path + '/idle/idle_0.png')
-    player_rect = pygame.Rect(-10, 0, img_for_rect.get_width(), img_for_rect.get_height())
+    player_rect = pygame.Rect(230, 100, img_for_rect.get_width(), img_for_rect.get_height())
 
     moving_right = False
     moving_left = False

@@ -286,8 +286,8 @@ def game_loop(img_path):
                 if event.key == pygame.K_LEFT and not win:
                     moving_left = True
                 if event.key == pygame.K_UP and not win:
-                    if air_timer < 6:
-                        player_y_momentum = -6
+                    if air_timer < 7:
+                        player_y_momentum = -6.5
                 elif event.key == pygame.K_ESCAPE and not win:
                     flag = False
                 elif event.key == pygame.K_ESCAPE and win:
